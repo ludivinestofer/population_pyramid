@@ -248,13 +248,14 @@ function handleMouseOver(d, i){
     .attr("opacity", "0.3");
     if (d.sex == 1){
       toolTip.html(`Age : ${i} <br> Population : ${d.population}`)
-        .style("left", `${d3.event.pageX+80}px`) // Eloignement de gauche à droite
-        .style("top", `${d3.event.pageY+0}px`) // Eloignement de haut en bas
+        .style("left", `${d3.event.pageX-200}px`)
+        .style("top", `${d3.event.pageY+0}px`)
+
         .style ("color", "#6473aa");
     } else {
       toolTip.html(`Age : ${i} <br> Population : ${d.population}`)
-        .style("left", `${d3.event.pageX-200}px`)
-        .style("top", `${d3.event.pageY+0}px`)
+        .style("left", `${d3.event.pageX+80}px`) // Eloignement de gauche à droite
+        .style("top", `${d3.event.pageY+0}px`) // Eloignement de haut en bas
         .style ("color", "#890883");
     }
 
