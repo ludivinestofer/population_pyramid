@@ -21,6 +21,12 @@ h2 {
   font-size: 16pt;
 }
 
+h3{
+  position: relative;
+  left: 5%;
+  font-size: 14pt;
+}
+
 #banner2 {
   display: block;
   background-color: #dc1f17;
@@ -39,6 +45,14 @@ a:hover {
 
 .navbar-header {
   font-size: 18px;
+}
+
+.images {
+  height: 300px;
+  width: 500px;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
 }
 
 #main_contact {

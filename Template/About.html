@@ -37,12 +37,73 @@
 <!-- Main -->
 <div id = "main_about">
   <h1>Description du projet</h1>
+  <p>  Ce projet a été effectué dans le cadre du cours de <i>Visualisation de données</i> donné par Isaac Pante (Faculté des Lettres, Université de Lausanne, SP2017). </p>
 
+  <h3>La pyramide des âges</h2>
 
-  <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
+  <p>C'est une application interactive qui permet de visualiser de manière dynamique l'évolution de la population en Suisse durant les 150 dernières années.</p>
+
+  <img src="../Image/Screen_whole.png" alt="" class = "images"><br>
+
+  <p>La pyramide des âges est une représentation graphique de la structure de la population selon l'âge et le sexe à un moment donné. Elle est constituée par convention de deux histogrammes, un pour chaque sexe (par convention les hommes à gauche et les femmes à droite). Les âges sont distribués en ordonnée et les effectifs en abscisse.<br><br>
+
+  C'est dans le premier Atlas statistique des Etats-Unis paru en 1874 que ce type de graphique apparaît. Il tient son nom de la forme initiale du graphique qui représente une pyramide comme il est possible de le voir en 1860. </p>
+
+  <img src="../Image/1860.png" alt="" class = "images">
+
+  <p>Il est possible grâce à la pyramide des âges de voir l'évolution de la population d'un pays. Celle-ci est influencée par le taux de fécondité, le taux de mortalité ainsi que l'espérance de vie. Au fil du temps, ces différents indicateurs ont évolué et fortement influencé la structure de la population représentée par la forme de la pyramide.<br>
+  En effet, la pyramide de 2016 comme il est possible de le voir ci-dessous n'a plus vraiment une forme de pyramide mais plutôt de champignon.
+  </p>
+
+  <img src="../Image/2016.png" alt="" class = "images">
+
+  <p>La pyramide des âges interactive permet de naviguer au fil du temps afin de voir l'évolution de la population selon les périodes historiques. De ce fait, il est possible de voir, en 1934, une diminution importante du nombre de femmes et d'hommes entre 15 et 20 ans. Ceci s'explique par l'épidémie de grippe espagnole ayant frappé la Suisse 15 ans auparavant. </p>
+
+  <img src="../Image/1934.png" alt="" class = "images">
+
+  <p>La pyramide des âges permet de mettre en avant les variations de population. En effet, le baby-boom de la fin de la 2ème guerre mondiale ainsi que les pics suivants (les enfants et les petits-enfants des baby-boomer) sont visibles sur le graphique. </p>
+
+  <img src="../Image/1970.png" alt="" class = "images">
+
+  <p>Ce  type de graphique permet  donc de garder une trace à long terme des crises du passé comme les guerres, les épidémies, les maladies mais également les augmentations de la natalité. </p>
+
+  <h2>Description de l'application</h2>
+
+  <h3>Construction</h3>
+
+  <p>Ce programme est un logiciel gratuit.<br><br>
+
+  Il a été construit avec 3 langages de programmation soit <i>HTML</i> (structure de la page), <i>CSS</i> (design de la page) et <i>Javascript</i> (graphique et interactivité).<br><br>
+
+  Bien sûr d'autres librairies ont été utilisées dont principalement <i>D3.js v4</i> qui permet de faire des graphiques mais également <i>Bootstrap 4.0.0</i>, <i>JQuery 3.2.1</i>, <i>Pooper.js 1.12.6</i> et <i>Leaflet 1.0.0</i>.</p>
+
+  <h3>Utilisation</h3>
+
+  <p>Vous atteignez la page d'accueil qui varie selon le support utilisé. </p>
+
+  <img src="../Image/Screen_whole.png" alt="" class = "images">
+
+  <p>Par convention comme expliqué plus haut, les hommes sont représentés à gauche et les femmes à droite.<br><br>
+
+  Pour naviguer au fil du temps, il est possible d'utiliser le slider ou les boutons situés en bas.
+  Le slider permet de trouver une année précisement alors que les boutons permettent d'accéder rapidement aux dizaines et donc d'observer les grandes tendances d'évolution du graphique.</p>
+
+  <img src="../Image/Screen_boutons.png" alt="" class = "images">
+
+  <p>Le bouton PLAY situé à gauche fait défiler la pyramide depuis 1860 jusqu'aux données actuelles (2016) en boucle. Cela permet de voir de manière continue l'évolution de la population suisse. </p>
+
+  <img src="../Image/Screen_play.png" alt="" class = "images">
+
+  <p>Lorsque l'on passe la souris sur les barres des histogrammes, l'âge sélectionné ainsi que le nombre d'habitants s'affichent dans un tooltip. La couleur de la police du tooltip permet de distinguer les hommes des femmes. </p>
+
+  <img src="../Image/tooltip_f.png" alt="" class = "images">
+  <img src="../Image/tooltip_h.png" alt="" class = "images">
+
+  <h3>Public cible</h3>
+
+  <p>La pyramide des âges s'adresse principalement aux statisticiens ou aux géographes devant analyser des données démographiques. Il est important qu'ils puissent interagir avec les données et observer l'évolution dans le temps en utilisant la fonction "Play" par exemple. Cette application s'adresse également à toute la population intéressée à suivre l'évolution démographique de la Suisse. </p>
+
 </div>
-
-
 
 
 <!-- Footer -->
@@ -52,6 +113,6 @@
 
 
 </body>
-<script src="Data/data1.js"></script>
-<script src="index.js"></script>
+<script src="../Data/data1.js"></script>
+<script src="../Static/index.js"></script>
 </html>

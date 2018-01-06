@@ -1,7 +1,7 @@
 # **Pyramide des âges**
 #### Visualisations des statistiques d'évolution de la population en Suisse entre 1860 et 2016 
 
-Disponible en ligne : [ici](https://roubaka.github.io/) 
+Disponible en ligne : [ici](https://ludivinestofer.github.io/Template/) 
 
 Ce projet a été effectué dans le cadre du cours de *Visualisation de données* donné par Isaac Pante (Faculté des Lettres, Université de Lausanne, SP2017). 
 
@@ -11,7 +11,7 @@ C'est une application interactive qui permet de visualiser de manière dynamique
 
 ![Alt Text](Image/Screen_whole.png)
 
-La pyramide des âges est une représentation graphique de la structure de la population selon l'âge et le sexe à un moment donné. Elle est constitué par convention de deux histogrammes, un pour chaque sexe (par convention les hommes à gauche et les femmes à droite). Les âges sont distribués en ordonnée et les effectifs en abscisse. 
+La pyramide des âges est une représentation graphique de la structure de la population selon l'âge et le sexe à un moment donné. Elle est constituée par convention de deux histogrammes, un pour chaque sexe (par convention les hommes à gauche et les femmes à droite). Les âges sont distribués en ordonnée et les effectifs en abscisse. 
 
 C'est dans le premier Atlas statistique des Etats-Unis paru en 1874 que ce type de graphique apparaît. Il tient son nom de la forme initiale du graphique qui représente une pyramide comme il est possible de le voir en 1860. 
 
@@ -22,7 +22,7 @@ En effet, la pyramide de 2016 comme il est possible de le voir ci-dessous n'a pl
 
 ![Alt Text](Image/2016.png)
 
-La pyramide des âges interactives permet de naviguer au fil du temps afin de voir l'évolution de la population selon les périodes historiques. De ce fait, il est possible de voir, en 1934, une diminution importante du nombre de femmes et d'hommes entre 15 et 20 ans. Ceci s'explique par l'épidémie de grippe espagnole ayant frappé la Suisse 15 ans auparavant. 
+La pyramide des âges interactive permet de naviguer au fil du temps afin de voir l'évolution de la population selon les périodes historiques. De ce fait, il est possible de voir, en 1934, une diminution importante du nombre de femmes et d'hommes entre 15 et 20 ans. Ceci s'explique par l'épidémie de grippe espagnole ayant frappé la Suisse 15 ans auparavant. 
 
 ![Alt Text](Image/1934.png)
 
@@ -45,7 +45,7 @@ Bien sûr d'autres librairies ont été utilisées dont principalement *D3.js v4
 
 ### Les données
 
-Les données utilisées pour réaliser les graphiques poviennent du département population de l'Office fédéral de la statistique (OFS). Il s'agit de données sur l'effectif de la population au 31 décembre de 1860 à nos jours (2016). Les données sont séparées selon le sexe, ce qui permet de réaliser une pyramide des âges.
+Les données utilisées pour réaliser les graphiques proviennent du département *population* de l'Office fédéral de la statistique (OFS). Il s'agit de données sur l'effectif de la population au 31 décembre 1860 à nos jours (2016). Les données sont séparées selon le sexe, ce qui permet de réaliser une pyramide des âges.
 
 Jusqu'en 2010, les statistiques sont construites sur la base d'ESPOP (Statistique de l'état annuel de la population) et depuis 2011, sur la base de STATPOP (Statistique de la population et des ménages). 
 
@@ -63,7 +63,7 @@ Les données ont été optimisées au format *csv*  avant d'être converties en 
 
 ### Utilisation  
 
-Il suffit d'avoir accès à internet et de se rendre [ici](https://databinch.github.io)
+Il suffit d'avoir accès à internet et de se rendre [ici](https://ludivinestofer.github.io/Template/) 
 
 Vous atteignez la page d'accueil qui varie selon le support utilisé. 
 
@@ -72,15 +72,15 @@ Vous atteignez la page d'accueil qui varie selon le support utilisé.
 Par convention comme expliqué plus haut, les hommes sont représentés à gauche et les femmes à droite. 
 
 Pour naviguer au fil du temps, il est possible d'utiliser le slider ou les boutons situés en bas. 
-Le slider permet de trouver une années précisement alors que les boutons permettent d'accéder rapidement aux dizaines et donc d'observer les grandes tendances d'évolution du graphique.
+Le slider permet de trouver une année précisement alors que les boutons permettent d'accéder rapidement aux dizaines et donc d'observer les grandes tendances d'évolution du graphique.
 
 ![Alt Text](Image/Screen_boutons.png)
 
-Le bouton PLAY situé à gauche permet de faire défiler la pyramide depuis 1860 jusqu'aux données actuelles (2016). Cela permet de voir de manière continue l'évolution de la population suisse. 
+Le bouton PLAY situé à gauche fait défiler la pyramide depuis 1860 jusqu'aux données actuelles (2016) en boucle. Cela permet de voir de manière continue l'évolution de la population suisse. 
 
 ![Alt Text](Image/Screen_play.png)
 
-Lorsque l'on passe la souris sur les barres des histogrammes, l'âge sélectionné ainsi que le nombre d'habitant s'affiche dans un tooltip. La couleur de la police du tooltip permet de distinguer les hommes des femmes. 
+Lorsque l'on passe la souris sur les barres des histogrammes, l'âge sélectionné ainsi que le nombre d'habitants s'affichent dans un tooltip. La couleur de la police du tooltip permet de distinguer les hommes des femmes. 
 
 ![Alt Text](Image/tooltip_f.png)
 
@@ -89,7 +89,7 @@ Lorsque l'on passe la souris sur les barres des histogrammes, l'âge sélectionn
 
 ### Public cible 
 
-La pyramide des âges s'adresse principalement aux statisticiens où aux géographes devant analyser des données démographiques. Il est important qu'ils puissent interagir avec les données et observer l'évolution dans le temps en utilisant la fonction "Play" par exemple. Cette application s'adresse également à toute la population intéressée à suivre l'évolution démographique de la Suisse. 
+La pyramide des âges s'adresse principalement aux statisticiens ou aux géographes devant analyser des données démographiques. Il est important qu'ils puissent interagir avec les données et observer l'évolution dans le temps en utilisant la fonction "Play" par exemple. Cette application s'adresse également à toute la population intéressée à suivre l'évolution démographique de la Suisse. 
 
 ## Sources
 
